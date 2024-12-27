@@ -4,7 +4,7 @@
 # import all nessesray libs and modules
 import sum_digits as sd # import my own module
 import temperature as temp # import my own module
-import is_even as ev # import my own module
+import modules.is_even as ev # import my own module
 
 def main():
     user_choise = input('Выберите, что вы хотите сделать:\n'
